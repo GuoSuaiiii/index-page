@@ -31,6 +31,13 @@ const data = {
             tags: ["Blog", "博客"],
             link: "https://blog.guaicong.top",
         },
+        {
+            id: 5,
+            title: "图床",
+            description: "使用IPFS的图床",
+            tags: ["imgbed", "图床", "IPFS"],
+            link: "https://imgbed.guaicong.top",
+        },
     ],
     resources: [
         {
@@ -499,4 +506,5 @@ function animateSearchResults() {
         card.style.animationDelay = `${index * 0.1}s`;
         card.classList.add('animate-in');
     });
+
 }
