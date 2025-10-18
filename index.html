@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怪葱的个人空间</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('res/font/Minecraft.ttf') format('truetype');
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 黑客终端效果 -->
+    <div id="terminal-effect"></div>
+
+    <!-- 导航栏 -->
+    <nav class="hacker-nav">
+        <div class="nav-container">
+            <div class="logo">@GuaiCong</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">主页</a></li>
+                <li><a href="#projects" class="nav-link">项目</a></li>
+                <li><a href="#resources" class="nav-link">资源</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主页部分 -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hacker-title">
+                    Hi! 欢迎来找怪葱玩！
+                </h1>
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="close"></span>
+                            <span class="minimize"></span>
+                            <span class="maximize"></span>
+                        </div>
+                        <span class="terminal-title">@GuaiCong</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-output">
+                            <p>> 初始化系统...</p>
+                            <p>> 加载用户配置文件...</p>
+                            <p>> 欢迎访问我的数字领域</p>
+                            <p>> 向下滚动探索更多内容</p>
+                        </div>
+                        <div class="terminal-input">
+                            <span class="prompt">visitor@GuaiCong:~$ </span>
+                            <span class="cursor">|</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 删除统计部分 -->
+                <!-- 
+                <div class="hacker-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">项目完成</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">代码提交</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label">技术栈</div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 搜索框 -->
+    <section id="search-section" class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-terminal">
+                    <span class="search-prompt">search@GuaiCong:~$ </span>
+                    <input type="text" id="search-input" placeholder="输入关键词搜索项目或资源..." class="search-input">
+                    <button id="search-btn" class="search-btn">执行搜索</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目和资源展示 -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">项目</h2>
+            <div id="projects-container" class="cards-container">
+                <!-- 项目卡片将通过JavaScript动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="resources-section">
+        <div class="container">
+            <h2 class="section-title">资源</h2>
+            <div id="resources-container" class="cards-container">
+                <!-- 资源卡片将通过JavaScript动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-terminal">
+                    <div class="terminal-output">
+                        <p>> whoami</p>
+                        <p>I'm GuaiCong</p>
+                        <p>> skills</p>
+                        <p>Python | Java | HTML | CSS</p>
+                        <p>> contact</p>
+                        <p>随时欢迎技术交流与合作</p>
+                        <p>> links</p>
+                        <div class="contact-links">
+                            <a href="https://github.com/GuoSuaiiii" target="_blank" class="contact-link github-link">
+                                <span class="link-icon">📂</span>
+                                GitHub
+                            </a>
+                            <a href="https://space.bilibili.com/1818196685" target="_blank"
+                                class="contact-link bilibili-link">
+                                <span class="link-icon">🎬</span>
+                                Bilibili
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
