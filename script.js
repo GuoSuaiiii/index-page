@@ -42,10 +42,10 @@ const data = {
     resources: [
         {
             id: 1,
-            title: "RUNOOB菜鸟教程",
-            description: "全面的编程语言学习指南",
-            tags: ["学习", "Learn", "Runoob"],
-            link: "https://www.runoob.com/",
+            title: "Deadshot.io射击游戏",
+            description: "耗玩的激情四射的对冲游戏",
+            tags: ["游戏", "Game", "Deadshot"],
+            link: "https://deadshot.io/",
         },
         
     ]
