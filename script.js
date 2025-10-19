@@ -38,6 +38,13 @@ const data = {
             tags: ["imgbed", "图床", "IPFS"],
             link: "https://imgbed.guaicong.top",
         },
+        {
+            id: 6,
+            title: "深港澳合作大挑战",
+            description: "深港澳参赛作品",
+            tags: ["Shenzhen", "Hongkong", "Macao"],
+            link: "https://szhkmo.guaicong.top/",
+        },
     ],
     resources: [
         {
@@ -508,3 +515,4 @@ function animateSearchResults() {
     });
 
 }
+
